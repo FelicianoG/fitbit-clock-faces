@@ -1,0 +1,18 @@
+#unlit {
+  opacity: 1;
+}
+.clock-hand {
+  width: 28;
+  height: 28;
+  fill: #a0a0a0;
+  arc-width: 6;
+  sweep-angle: 10;
+}
+
+#manecilla {
+  x: 50%;
+  y: 50%;
+  width: 3;
+  height: 12;
+  fill: green;
+}

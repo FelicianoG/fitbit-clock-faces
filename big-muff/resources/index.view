@@ -1,0 +1,11 @@
+<svg class="background">
+  <image href="bigmuff_WF_lit.png" />
+  <image id="unlit" href="bigmuff_WF.png" />
+  <text id="myLabel" />
+<svg viewport-fill="lightblue">
+  <arc id="hour" class="clock-hand" x="74" y="55" start-angle="45" />
+  <arc id="minute" class="clock-hand" x="155" y="55"start-angle="0" />
+  <arc id="second" class="clock-hand" x="233" y="55" start-angle="0" />
+</svg>
+<circle pointer-events="visible" id="switch" cx="50%" cy="78%" r="40" fill="red" opacity="0" />
+</svg>

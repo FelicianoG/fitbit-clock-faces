@@ -1,0 +1,22 @@
+# 1. Node dependencies
+node_modules/
+package-lock.json
+
+# 2. Fitbit build artifacts
+# The Fitbit CLI typically creates a build folder (e.g. .build) or output folder.
+.build/
+output/
+build/
+dist/
+
+# 3. Local config / environment files
+.env
+*.local
+
+# 4. OS-generated files
+.DS_Store
+Thumbs.db
+
+# 5. IDE/editor settings
+.vscode/
+.idea/
